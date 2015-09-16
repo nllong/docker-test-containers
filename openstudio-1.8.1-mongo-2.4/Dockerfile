@@ -1,4 +1,4 @@
-FROM nllong/openstudio:1.8.1
+FROM nrel/openstudio:1.8.1
 
 RUN apt-get update -y && \
     apt-get install -y mongodb && \
